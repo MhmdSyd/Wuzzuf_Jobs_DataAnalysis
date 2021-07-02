@@ -39,6 +39,9 @@
             <artifactId>tablesaw-core</artifactId>
             <version>0.38.2</version>
         </dependency>
+
+
+
     </dependencies>
 
 
