@@ -1,4 +1,4 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

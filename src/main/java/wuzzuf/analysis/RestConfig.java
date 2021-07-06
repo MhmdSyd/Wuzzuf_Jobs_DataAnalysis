@@ -1,19 +1,11 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 
 
-import org.apache.hadoop.yarn.webapp.WebApp;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
-import org.json.simple.JSONObject;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.*;
-import java.util.List;
 
 @RestController
 public class RestConfig {
@@ -77,7 +69,7 @@ public class RestConfig {
     public String sayBye() throws Exception
     {
 
-        BufferedReader reader = new BufferedReader(new FileReader ("src/main/resources/Images.html"));
+        BufferedReader reader = new BufferedReader(new FileReader ("src/main/resources/images.html"));
         String line = null;
         StringBuilder  stringBuilder = new StringBuilder();
         String ls = System.getProperty("line.separator");
@@ -87,14 +79,9 @@ public class RestConfig {
                 stringBuilder.append(line);
                 stringBuilder.append(ls);
             }
-
             return stringBuilder.toString();
         } finally {
             reader.close();
         }
-
     }
-
-
-
 }

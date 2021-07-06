@@ -1,11 +1,10 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.knowm.xchart.BitmapEncoder;
 import org.knowm.xchart.CategoryChart;
 import org.knowm.xchart.CategoryChartBuilder;
-import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.style.Styler;
 
 import java.util.ArrayList;

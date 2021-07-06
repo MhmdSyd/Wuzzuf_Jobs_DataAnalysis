@@ -1,4 +1,4 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 import javassist.expr.Cast;
 import org.apache.spark.api.java.JavaRDD;

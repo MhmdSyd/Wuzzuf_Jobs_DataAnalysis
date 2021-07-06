@@ -1,4 +1,4 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 import org.apache.spark.ml.feature.StringIndexer;
 import org.apache.spark.ml.feature.StringIndexerModel;

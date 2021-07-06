@@ -1,4 +1,4 @@
-package com.example.springTrial.trial_one;
+package wuzzuf.analysis;
 
 import org.knowm.xchart.internal.chartpart.Chart;
 
